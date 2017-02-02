@@ -10,11 +10,8 @@
 		18020EEC1B73AEFD00F637F2 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18020EEB1B73AEFD00F637F2 /* Sound.swift */; };
 		18020EEE1B73AF1100F637F2 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18020EEB1B73AEFD00F637F2 /* Sound.swift */; };
 		18020EF01B73B1D800F637F2 /* SoundChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18020EEF1B73B1D800F637F2 /* SoundChannel.swift */; };
-		18020EF31B73B87B00F637F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18020EF11B73B86000F637F2 /* AVFoundation.framework */; };
 		18020EF51B73B94D00F637F2 /* DisplayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD46CC1AF9510100A7992C /* DisplayObject.swift */; };
 		18020EF61B73B9B200F637F2 /* SoundChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18020EEF1B73B1D800F637F2 /* SoundChannel.swift */; };
-		18020EF81B73BAD900F637F2 /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18020EF71B73BAD900F637F2 /* ButtonTap.wav */; };
-		18020EFC1B73C81E00F637F2 /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18020EFB1B73C81E00F637F2 /* SecondBeep.wav */; };
 		180A4DD21B669C0B00D77CD4 /* TextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A4DD11B669C0B00D77CD4 /* TextFormat.swift */; };
 		180A4DD41B669C5100D77CD4 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A4DD31B669C5100D77CD4 /* TextField.swift */; };
 		183432091B62F16500F1CD2E /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183432081B62F16500F1CD2E /* SKMultilineLabel.swift */; };
@@ -23,12 +20,10 @@
 		18C9429F1AFD007800D20904 /* easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9429C1AFD007800D20904 /* easing.swift */; };
 		18C942A01AFD007800D20904 /* EasingDeclarations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9429D1AFD007800D20904 /* EasingDeclarations.swift */; };
 		18C942A11AFD007800D20904 /* SKEase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9429E1AFD007800D20904 /* SKEase.swift */; };
-		18C942A51AFD209500D20904 /* images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18C942A41AFD209500D20904 /* images.atlas */; };
 		18DD46481AF9104500A7992C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD46471AF9104500A7992C /* AppDelegate.swift */; };
 		18DD464E1AF9104500A7992C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD464D1AF9104500A7992C /* GameViewController.swift */; };
 		18DD46511AF9104500A7992C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DD464F1AF9104500A7992C /* Main.storyboard */; };
 		18DD46531AF9104500A7992C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DD46521AF9104500A7992C /* Images.xcassets */; };
-		18DD46561AF9104500A7992C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DD46541AF9104500A7992C /* LaunchScreen.xib */; };
 		18DD46751AF9105700A7992C /* ActionSwift3.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DD46741AF9105700A7992C /* ActionSwift3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18DD467B1AF9105700A7992C /* ActionSwift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD46701AF9105700A7992C /* ActionSwift3.framework */; };
 		18DD46871AF9105700A7992C /* ActionSwift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD46701AF9105700A7992C /* ActionSwift3.framework */; };
@@ -129,26 +124,20 @@
 /* Begin PBXFileReference section */
 		18020EEB1B73AEFD00F637F2 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = media/Sound.swift; sourceTree = "<group>"; };
 		18020EEF1B73B1D800F637F2 /* SoundChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundChannel.swift; path = media/SoundChannel.swift; sourceTree = "<group>"; };
-		18020EF11B73B86000F637F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		18020EF71B73BAD900F637F2 /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
-		18020EFB1B73C81E00F637F2 /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SecondBeep.wav; sourceTree = "<group>"; };
 		180A4DD11B669C0B00D77CD4 /* TextFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFormat.swift; path = text/TextFormat.swift; sourceTree = "<group>"; };
 		180A4DD31B669C5100D77CD4 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = text/TextField.swift; sourceTree = "<group>"; };
-		1833525B1B84C8D20082DB1F /* SwiftAPIfortheFlashGuySmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftAPIfortheFlashGuySmall.png; sourceTree = "<group>"; };
 		183432081B62F16500F1CD2E /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
 		18642EF01B755FA000689AB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18C9425C1AFC31A900D20904 /* MovieClip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieClip.swift; path = display/MovieClip.swift; sourceTree = "<group>"; };
 		18C9429C1AFD007800D20904 /* easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = easing.swift; sourceTree = "<group>"; };
 		18C9429D1AFD007800D20904 /* EasingDeclarations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingDeclarations.swift; sourceTree = "<group>"; };
 		18C9429E1AFD007800D20904 /* SKEase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKEase.swift; sourceTree = "<group>"; };
-		18C942A41AFD209500D20904 /* images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = images.atlas; sourceTree = "<group>"; };
 		18DD46421AF9104500A7992C /* ActionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DD46461AF9104500A7992C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DD46471AF9104500A7992C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DD464D1AF9104500A7992C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		18DD46501AF9104500A7992C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DD46521AF9104500A7992C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		18DD46551AF9104500A7992C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18DD465B1AF9104500A7992C /* ActionSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DD46701AF9105700A7992C /* ActionSwift3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSwift3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DD46731AF9105700A7992C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,7 +164,6 @@
 		18E1A2CC1B72B61E0050CCFA /* InteractiveNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InteractiveNode.swift; path = display/InteractiveNode.swift; sourceTree = "<group>"; };
 		18E1A2CE1B72BBF60050CCFA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		18EEBF861AFD5AC0007D8C4E /* ActionSwift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActionSwift.png; sourceTree = "<group>"; };
-		18EEBF891AFD6B90007D8C4E /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		B9330BF11BB1F1C500A3EB47 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B965BDAA1BDAD89E00E4875F /* LabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelNode.swift; path = display/LabelNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,7 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18020EF31B73B87B00F637F2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,19 +211,9 @@
 			name = media;
 			sourceTree = "<group>";
 		};
-		18020EF41B73B88A00F637F2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18020EF11B73B86000F637F2 /* AVFoundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		18020EFD1B73C82600F637F2 /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				18020EF71B73BAD900F637F2 /* ButtonTap.wav */,
-				18020EFB1B73C81E00F637F2 /* SecondBeep.wav */,
 			);
 			name = audio;
 			sourceTree = "<group>";
@@ -265,8 +242,6 @@
 			children = (
 				18642EF01B755FA000689AB1 /* README.md */,
 				18EEBF861AFD5AC0007D8C4E /* ActionSwift.png */,
-				18EEBF891AFD6B90007D8C4E /* screenshot.png */,
-				1833525B1B84C8D20082DB1F /* SwiftAPIfortheFlashGuySmall.png */,
 				18DD46441AF9104500A7992C /* ActionSwift */,
 				18DD46711AF9105700A7992C /* ActionSwift3 */,
 				18DD46431AF9104500A7992C /* Products */,
@@ -288,12 +263,10 @@
 			isa = PBXGroup;
 			children = (
 				18020EFD1B73C82600F637F2 /* audio */,
-				18C942A41AFD209500D20904 /* images.atlas */,
 				18DD46471AF9104500A7992C /* AppDelegate.swift */,
 				18DD464D1AF9104500A7992C /* GameViewController.swift */,
 				18DD464F1AF9104500A7992C /* Main.storyboard */,
 				18DD46521AF9104500A7992C /* Images.xcassets */,
-				18DD46541AF9104500A7992C /* LaunchScreen.xib */,
 				18DD46451AF9104500A7992C /* Supporting Files */,
 			);
 			name = ActionSwift;
@@ -311,7 +284,6 @@
 		18DD46711AF9105700A7992C /* ActionSwift3 */ = {
 			isa = PBXGroup;
 			children = (
-				18020EF41B73B88A00F637F2 /* Frameworks */,
 				18DD46741AF9105700A7992C /* ActionSwift3.h */,
 				18DD46C61AF92DD500A7992C /* com */,
 				18DD46721AF9105700A7992C /* Supporting Files */,
@@ -545,10 +517,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DD46561AF9104500A7992C /* LaunchScreen.xib in Resources */,
-				18C942A51AFD209500D20904 /* images.atlas in Resources */,
-				18020EF81B73BAD900F637F2 /* ButtonTap.wav in Resources */,
-				18020EFC1B73C81E00F637F2 /* SecondBeep.wav in Resources */,
 				18DD46531AF9104500A7992C /* Images.xcassets in Resources */,
 				18DD46511AF9104500A7992C /* Main.storyboard in Resources */,
 			);
@@ -699,14 +667,6 @@
 				18DD46501AF9104500A7992C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18DD46541AF9104500A7992C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18DD46551AF9104500A7992C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
