@@ -1,2 +1,2 @@
 # Skweez
-Face squeezing app made for a class project.
+Fun face squeezing app.
